@@ -7,16 +7,10 @@ def cargar_pacientes(matriz, inicio, cantidad):
     """
     Carga pacientes en una matriz.
 
-    La carga de pacientes se realizar  solicitando los datos por teclado. Se
-    solicitar  el n mero de historia cl nica, el nombre, la edad, el diagn stico y
-    la cantidad de d as de internaci n. La edad y la cantidad de d as se
-    verificar n para asegurarse de que sean n meros.
-
-    Args:
-        matriz (list): La matriz donde se cargar n los pacientes.
-        inicio (int): La posici n inicial en la matriz donde se cargar n los
-            pacientes.
-        cantidad (int): La cantidad de pacientes a cargar.
+    La carga de pacientes se realiza solicitando los datos. Se
+    solicita el N° de historia clinica, el nombre, la edad, el diagnostico y
+    la cantidad de dias de internacion. La edad y la cantidad de dias se
+    verificaron para asegurarse de que sean numeros.
     """
     for i in range(cantidad):
         print(f"\nPaciente {inicio + i + 1}:")
