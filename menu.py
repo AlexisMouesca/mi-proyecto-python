@@ -1,0 +1,11 @@
+def mostrar_menu():
+    print("\n--- Sistema de Gestion de Clinica ---")
+    print("1. Cargar pacientes")
+    print("2. Mostrar todos los pacientes")
+    print("3. Buscar paciente por N° de historia clínica")
+    print("4. Ordenar pacientes por N° de historia clínica")
+    print("5. Paciente con más días de internación")
+    print("6. Paciente con menos días de internación")
+    print("7. Contar pacientes con más de 5 días de internación")
+    print("8. Promedio de días de internación de todos los pacientes")
+    print("9. Salir")
